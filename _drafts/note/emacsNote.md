@@ -149,7 +149,7 @@ etags
     M-x visit-tags-table *tags* 加载TAGS文件
     C+. 跳转到相应标签
     C+* 跳转到上一标签处
-    C-u M- 跳转标签的下一处
+    C-u M-. 跳转标签的下一处
 
 -------------------
 Upcase and Downcase
