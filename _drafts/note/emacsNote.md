@@ -203,6 +203,18 @@ markdown-mode
     C-c C-t 1～6 插入标题1～6
     S-TAB 切换显示模式
 
+org-mode
+
+    * 一级标题
+    ** 二级标题
+	*** 三级标题
+
+    C-c C-c     add tags
+    C-c C-t     (org-todo)                   Change the TODO state of an item
+    C-c .       (org-time-stamp)             Prompt for a date/time and insert a time stamp
+	C-c !       (org-time-stamp-inactive)    Insert an inactive time stamp
+
+
 --------
 Varibles 
 --------
