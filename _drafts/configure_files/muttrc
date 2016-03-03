@@ -1,5 +1,5 @@
 #设置编辑器
-set editor = "emacs -q -l /home/navy/.emacs_for_git.el"
+set editor = "emacsclient -t -a emacs"
 #将邮件头也放在编辑器中
 set edit_headers=yes
 #设置文件头

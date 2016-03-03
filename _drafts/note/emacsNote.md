@@ -18,6 +18,14 @@ Help
     C-h m      (describe-mode)      *
     C-h a      (apropos-command)
 
+-----
+Macro
+-----
+C-x (：开始录制宏(F3)
+C-x )：停止录制宏(F4)
+C-x e：执行一次宏
+C-u num C-x e：执行num 次宏
+
 ----
 Move
 ----
@@ -119,7 +127,8 @@ Buffer
 ------
     C-x C-q         (read-only-mode)
     C-x C-b         (list-buffers)
-    C-x b           (switch-to-buffer) 
+    C-x b           (switch-to-buffer)
+	C-x 4 b         (switch-to-buffer-other-window)
     C-x C-f         (find-file)
     C-x C-v         (find-alternate-file)
     C-x k	        (kill-buffer)  ps:(kill-some-buffer)
@@ -202,17 +211,6 @@ markdown-mode
     C-c C-c p 在当前缓冲取中运行markdown(转换成XHTML)，并在浏览器中预览。
     C-c C-t 1～6 插入标题1～6
     S-TAB 切换显示模式
-
-org-mode
-
-    * 一级标题
-    ** 二级标题
-	*** 三级标题
-
-    C-c C-c     add tags
-    C-c C-t     (org-todo)                   Change the TODO state of an item
-    C-c .       (org-time-stamp)             Prompt for a date/time and insert a time stamp
-	C-c !       (org-time-stamp-inactive)    Insert an inactive time stamp
 
 
 --------
