@@ -205,14 +205,6 @@ c-mode
     M-;        (comment-dwim)
     C-c C-c    (comment-region)
 
-markdown-mode
-
-    C-c C-c m 在当前缓冲区中运行markdown(转换成XHTML)，并在另一缓冲区中预览。
-    C-c C-c p 在当前缓冲取中运行markdown(转换成XHTML)，并在浏览器中预览。
-    C-c C-t 1～6 插入标题1～6
-    S-TAB 切换显示模式
-
-
 --------
 Varibles 
 --------
