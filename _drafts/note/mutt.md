@@ -1,1 +1,0 @@
-发邮件使用msmtp，收邮件使用getmail
